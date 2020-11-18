@@ -31,5 +31,3 @@ public with sharing class AnimalLocator {
         public Animal animal; 
     }
 }
-   
-

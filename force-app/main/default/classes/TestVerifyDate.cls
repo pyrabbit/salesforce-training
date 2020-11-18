@@ -19,4 +19,4 @@ private class TestVerifyDate {
         Date expected = Date.newInstance(2020,3,31);
         System.assertEquals(expected, VerifyDate.CheckDates(date1,date2));
     }
-}   
+}
