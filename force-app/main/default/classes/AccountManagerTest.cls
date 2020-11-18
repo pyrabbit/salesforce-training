@@ -13,7 +13,7 @@ public with sharing class AccountManagerTest {
 
         RestRequest request = new RestRequest();
         request.requestUri =
-            'https://curious-fox-dtryuz.salesforce.com/services/apexrest/accounts/'
+            'https://curious-fox-dtryuz.salesforce.com/services/apexrest/Accounts/'
             + account.Id + '/contacts';
         request.httpMethod = 'GET';
         RestContext.request = request;
